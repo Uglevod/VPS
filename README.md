@@ -44,6 +44,7 @@ docker compose up --build -d
 // UWF фаирвол закрываем все - кроме того что работает 
 
 // прооброс ssh доступ к закрытому извне порту mysql
+ssh -L 9999:localhost:27017 root@serverIP
 
 // пока все 
 
